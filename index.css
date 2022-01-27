@@ -144,6 +144,8 @@ Our_Menu h2{
     width: 200px;
     height: 120px;
     align-items: center;
+    flex-direction: row;
+
 }
 .lower_right_footer{
     font-size: 20px;
@@ -170,6 +172,17 @@ Our_Menu h2{
     align-items: center;
     justify-content: space-around;
     background-color: yellow;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+#apps{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Add{
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
