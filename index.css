@@ -115,6 +115,7 @@ nav-tab1::after{
     float: left;
     width: 33.33%;
     padding: 5px;
+    display: flex;
 
   }
 
@@ -122,5 +123,54 @@ nav-tab1::after{
     color: #F6B400;
     text-align: center;
 }
+.Our_Menu{
+    margin-top: 38px;
+}
+Our_Menu h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+Our_Menu h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.lower_footer_section{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 150px;
+    width: 200px;
+    height: 120px;
+    align-items: center;
+}
+.lower_right_footer{
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: normal;
+    display: block;
+ }
+ .lower_right_footer ul li{
+    list-style-type: none;
+    text-align:center;
+    padding: 5px;
+     display:inline;
+}
+.upper_right_footer{
+    position: relative; left: 140px;bottom: 25px;
+    padding:7% 8% ;
+    margin-bottom: 38%;
+    display: flex;
+    align-items: center;
+}
+
+#To_download{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: yellow;
+}
+
 
 
