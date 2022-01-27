@@ -59,6 +59,34 @@ nav-tab1::after{
 .text-box p{
     color: gray;
 }
+ 
+#row1 , #row2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container1,.container2,.Our_Menu{
+    width: 50%;
+    border-style: solid;
+    border-color: rgb(194, 104, 41);
+    margin:20px 10px;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+    position:relative;top:50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+
+
 .text-box{
     padding: 20px;
     display: flex;
@@ -166,6 +194,12 @@ Our_Menu h2{
     display: flex;
     align-items: center;
 }
+.upper_right_footer li{
+    display: flex;
+    flex-direction: column;
+
+}
+
 
 #To_download{
     display: flex;
@@ -184,6 +218,11 @@ Our_Menu h2{
     flex-direction: row;
     justify-content: space-between;
 }
-
+.ad1,.ad2{
+    border-radius: 10% 10% 10% 10%;  
+}
+.ad2{ 
+    position: relative; right:30px;
+}
 
 
