@@ -7,12 +7,20 @@ html{
     padding:0px;
     height: 100%;
 }
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+
+
+
+}
        
 #nav1{   
     display:flex;
-    padding:2% 4%;
-    justify-content: space-between;
-    text-align:center;
+    flex-direction: row;
+    align-items: center;
 
 }
 ul{
@@ -22,4 +30,14 @@ ul{
 }
 ul li{
     display: inline;
+    list-style: none;
+    margin: 20px;
 }
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+ul li a :hover{
+    color: red;
+}
+
