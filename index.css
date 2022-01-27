@@ -94,6 +94,15 @@ nav-tab1::after{
     border-radius: 15px;
     text-align: center;
 }
+.Delicious{
+    border-style: solid;
+    border-color:rgb(216, 120, 51) ;
+    padding-top: 70px;
+    margin: 100px 60px;
+    border-radius: 15px;
+    text-align: center;
+  
+  }
 
   
 
