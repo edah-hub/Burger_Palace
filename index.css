@@ -69,6 +69,15 @@ nav-tab1::after{
 .text-box h1{
     font-size: 50px;
 }
+.text-box button{
+    margin-top: 25px;
+    border-color: transparent;
+    padding: 15px 20px;
+    text-align: center;
+    background-color:  #F6B400;
+    border-radius: 15px 15px 0px 15px;   
+    color: white;
+}
   
 
 
