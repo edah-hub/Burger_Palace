@@ -78,6 +78,23 @@ nav-tab1::after{
     border-radius: 15px 15px 0px 15px;   
     color: white;
 }
+.Delivery{
+    border-style: solid;
+    border-color: rgb(218, 114, 39);
+    padding: 70px;
+    margin: 100px 60px;
+    border-radius: 15px;
+    text-align: center;
+}  
+.Quality{
+    border-style: solid;
+    border-color:rgb(218, 114, 39) ;
+    padding-top: 70px;
+    margin: 100px 60px;
+    border-radius: 15px;
+    text-align: center;
+}
+
   
 
 
