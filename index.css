@@ -1,13 +1,25 @@
+*{
+    text-decoration: none;
+    color: #000;
+}
 html{
     margin: 0px;
     padding:0px;
     height: 100%;
 }
        
-#nav{   
+#nav1{   
     display:flex;
-    padding:2% 6%;
+    padding:2% 4%;
     justify-content: space-between;
     text-align:center;
 
+}
+ul{
+    float: right;
+    height: 50px;
+
+}
+ul li{
+    display: inline;
 }
