@@ -2,6 +2,10 @@
     text-decoration: none;
     color: #000;
 }
+header{ 
+    background-image: linear-gradient(132deg, #ffffff 50%, #f6b400 0%);
+    background-color: #F6B400;
+}
 html{
     margin: 0px;
     padding:0px;
@@ -11,10 +15,7 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   align-items: center;
-
-
-
+    align-items: center;
 }
        
 #nav1{   
@@ -40,4 +41,16 @@ ul li a{
 ul li a :hover{
     color: red;
 }
+nav-tab::after{
+    content:'';
+    width: 100%;
+    height:4px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+}
+.About_us{
+    display: flex;
+    justify-content: space-around;
+
 
