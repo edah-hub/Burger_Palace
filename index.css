@@ -182,8 +182,9 @@ nav-tab1::after{
     margin: 5%;
   
 }
-.cart1{
-    background-color:red;
+.cart{
+    background-color: #E1EBE6;
+    padding: 0.5em;
 
 }
 
@@ -201,6 +202,14 @@ nav-tab1::after{
     width: 100%;
     
 }
+
+.images{
+    margin: 0%;
+}
+.images_text{
+  float: right;
+}
+
 
 .To_download{
     display: flex;
@@ -252,10 +261,10 @@ nav-tab1::after{
     align-items: center;
     font-size: 16px;
 }
-.upper_right_footer li{
+.upper_right_footer {
     display: flex;
     flex-direction: column;
-    margin-top: 15%;
+    margin-top: 3%;
 
 }
 
@@ -264,17 +273,18 @@ nav-tab1::after{
     justify-content: space-evenly;
 }
 
-.lower_footer_section ul li{
-    list-style-type: none;
-    text-align:center;
-    padding: 5px;
-     display:inline;
-   margin-left: 20%;
-}
 
 
 .lower_left_footer{
     font-size: 16x;
+}
+
+.lower_middle_footer ul li{
+    list-style-type: none;
+    text-align:center;
+    padding: 5px;
+    display:inline;
+   margin-left: 20%;
 }
 
 
