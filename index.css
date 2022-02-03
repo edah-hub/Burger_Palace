@@ -1,7 +1,6 @@
 *{
     text-decoration: none;
     color: #000;
-
 }
 header{ 
     background-image: linear-gradient(132deg, #ffffff 50%, #f6b400 0%);
@@ -110,7 +109,6 @@ nav-tab1::after{
     border-radius: 15px;
     text-align: center;
 }  
-
 .Delicious{
     border-style: solid;
     border-color:rgb(216, 120, 51) ;
@@ -120,7 +118,6 @@ nav-tab1::after{
     text-align: center;
   
   }
-
   .Quality , .Delivery, .Delicious{
     align-items: center;
     flex-direction: row;
