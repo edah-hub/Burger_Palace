@@ -41,6 +41,9 @@ ul li a{
 ul li a :hover{
     color: red;
 }
+.logo-text{
+color: #F6B400;
+}
 nav-tab1::after{
     content:'';
     width: 100%;
@@ -197,14 +200,19 @@ nav-tab1::after{
     align-items: center;
     flex-direction: row-reverse;
     width: 100%;
+    font-size: 20px;
     
 }
 
 .images{
-    margin: 0%;
+    margin-right: 30%;
 }
 .images_text{
   float: right;
+
+}
+.next{
+    color:#F6B400
 }
 
 
